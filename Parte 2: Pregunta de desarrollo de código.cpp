@@ -39,7 +39,7 @@ void mostrarEstudiante(const Estudiante& estudiante){
     
     cout << "\nAsistencias: " << endl;
     for (const auto& asistencia : estudiante.asistencias){
-        cout << "Fecha:  " << asistencia.fecha << " - Materia: " << asistencia.materia << " - Estado: " << asistencia.estado << endl;
+        cout << "Fecha:  " << asistencia.fecha << "- Materia: " << asistencia.materia << "-Estado: " << asistencia.estado << endl;
     }
 }
 
